@@ -9,7 +9,7 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600" id="features">Почему выбирают Nexus</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600" id="features">Почему выбирают Messenger Bobs</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
           Сквозное шифрование, мгновенная доставка и групповые чаты до 100 000 человек — всё в одном приложении без рекламы и слежки.
         </p>
