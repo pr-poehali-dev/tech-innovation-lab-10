@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Upload file",
+      "method": "POST",
+      "path": "/",
+      "body": {"file_data": "SGVsbG8=", "file_name": "test.txt", "content_type": "text/plain"},
+      "expectedStatus": 200,
+      "expectedBody": {"url": "string", "file_name": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
