@@ -13,9 +13,9 @@ export default function Featured() {
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
           Сквозное шифрование, мгновенная доставка и групповые чаты до 100 000 человек — всё в одном приложении без рекламы и слежки.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide" id="download">
-          Скачать бесплатно
-        </button>
+        <a href="/login" className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide inline-block" id="download">
+          Начать бесплатно
+        </a>
       </div>
     </div>
   );

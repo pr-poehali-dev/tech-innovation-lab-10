@@ -32,9 +32,9 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
           Мессенджер нового поколения — быстро, безопасно и без лишнего шума
         </p>
-        <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+        <a href="/login" className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
           Начать общение
-        </button>
+        </a>
       </div>
     </div>
   );
